@@ -86,7 +86,7 @@ Minimal e-ticaret REST API’si. Framework yok (Native PHP), DB: PostgreSQL. JWT
 - `GET /api/orders` (Auth)
 - `GET /api/orders/{id}` (Auth)
 
-## Notlar (Melike’nin küçük notları)
+## Notlar 
 - pgAdmin’de ilk bağlanırken kullanıcı/rol karışıklığı yaşarsan: Sunucu → `localhost:5432` → kullanıcı adın `postgres` (ya da kurarken verdiğin), DB: `ecom_db`.
 - Şema dosyasında `CREATE EXTENSION IF NOT EXISTS pgcrypto;` var; örnek kullanıcılar `crypt(..., gen_salt('bf'))` ile **bcrypt** hashlenir.
 - Test kolaylığı için mesajlar kısa tutuldu ("Tamam", "Kayıt yapıldı", "Giriş yapıldı").
