@@ -1,7 +1,6 @@
 # Melike – E‑Ticaret API (Native PHP + PostgreSQL)
 
-Minimal, öğrenci dostu e-ticaret REST API’si. Framework yok (Native PHP), DB: PostgreSQL. JWT ile auth.
-Mesaj dili kısa: "Kayıt yapıldı", "Giriş yapıldı", "Tamam".
+Minimal e-ticaret REST API’si. Framework yok (Native PHP), DB: PostgreSQL. JWT ile auth.
 
 ## Gereksinimler
 - PHP 8.1+
